@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>My Project</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:hsl(40, 50%, 86%);
+    color:#333;
+}
+
+.container{
+    width:80%;
+    margin:30px auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.project{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.project h2{
+    margin-bottom:10px;
+}
+
+.project p{
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+.tech{
+    margin-bottom:20px;
+}
+
+.tech span{
+    display:inline-block;
+    background:#007BFF;
+    color:white;
+    padding:6px 12px;
+    border-radius:5px;
+    margin:5px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+    border:2px solid #ddd;
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+    border-color:#007BFF;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>My Project</h1>
+
+    <div class="project">
+
+        <h2>RoadWatch</h2>
+
+        <p>
+            RoadWatch is a project that allows users to report potholes and damaged
+            roads by uploading images. The reports help authorities identify and
+            repair roads faster.
+        </p>
+
+        <div class="tech">
+            <strong>Technologies Used:</strong><br><br>
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Firebase</span>
+
+        </div>
+
+        <h2>Project Gallery</h2>
+
+        <div class="gallery">
+
+            <img src="/images/image1.jpg" alt="Project Image 1">
+
+            <img src="/images/image2.jpg" alt="Project Image 2">
+
+            <img src="/images/ image3.jpg" alt="Project Image 3">
+
+            <img src="image4.jpg" alt="Project Image 4">
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
